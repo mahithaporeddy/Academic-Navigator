@@ -1,0 +1,228 @@
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  
+}
+.table-responsive table th {
+    background: #f7f7f7;
+}
+td {
+    text-align:left;
+}
+th {
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+
+}
+table{
+    margin:0 auto;
+}
+body {
+    line-height: 1.7;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    margin:0 auto;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin:0 auto;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    font-size: 100%;
+    max-width: 100%;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #333333;
+    color: #fff;
+    text-shadow: none;
+}
+section {
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    line-height: 1.7;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    font-size: 100%;
+    max-width: 100%;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #333333;
+    color: #fff;
+    text-shadow: none;
+}
+  
+
+
+.page-btn{
+    margin:0 auto ;
+    padding:0;
+    font-family: sanserif;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.page-btn{
+    width: 50%;
+    height: 40vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    background:local;
+    color: #383838;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+ ul{ 
+    margin: 20px 30px;
+
+}
+.page-btn span{
+    display:inline-block;
+    border: 1px solid #ff523b;
+    margin:0 10px;
+
+    width: 45px;
+    height: 45px;
+    border-radius:50% ;
+    text-align: center;
+    font-size:22px ;
+    font-weight: 45px;
+    line-height: 40px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+    
+
+}
